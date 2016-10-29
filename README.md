@@ -1,2 +1,2 @@
-# yinshun
-Master Yinshun 2016 Interface
+# corpus-bind
+UI for binding corpus
