@@ -13,7 +13,9 @@ const maincomponent = React.createClass({
     return E(CorpusTabMode,
       {corpus:"yinshun",appname:"yinshun",
       nav:["article","toc"],
-      tabs:["toc","search","dictionary","source","config"],
+      address:"59p9.0301",
+      decorations:["note"],
+      tabs:["source","search","dictionary","config","toc"],
       leftFlex:3,rightFlex:2} 
     );
   }
