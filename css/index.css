@@ -1,82 +1,15 @@
-body {margin:0px;height:100%;overflow-y:hidden;overflow-x:hidden}
-button {cursor:pointer;}
-.darktheme {background:gray;}
+/* application css */
+body {margin:0px}
+#main {font-size:125%}
+.hl0 {color:red;}
 
-.CodeMirror { line-height: 1.6em;font-size:125%;}
-.cm-s-ambiance.CodeMirror { line-height: 1.6em;}
-.CodeMirror-cursor {border-left: 3px solid black;}
-.cm-s-ambiance.CodeMirror-cursor { border-left: 3px solid #7991E8; }
+.link{border-bottom-style:solid;border-width:2px;border-color:blue;}
 
-.highlight {background:#6699FF;cursor:pointer;}
+.innernote {font-size:0.6em;cursor:pointer;
+	top:-1.4em;color:yellow;position:absolute;}
 
-.editingMarker  {cursor:pointer;outline:1px solid red;}
+.ptr {font-size:0.8em;cursor:pointer;
+	top:-1.1em;color:lightgreen;position:absolute;}
 
-.closebutton { cursor:pointer}
-.closebutton:hover {background:#AF4040;color:white}
-
-
-.definition ,.extdefinition {font-family: 微軟正黑體,Microsoft JhengHei;font-weight: bold;font-size:80%;}
-.definition2,.extdefinition2 {font-family: 微軟正黑體,Microsoft JhengHei;font-size:80%;}
-
-.important {color:red;}
-.milestone {border-radius:10px;background :lightblue ;color:black;padding-top:8px;padding-bottom:8px;}
-a:visited {color:darkblue;}
-.title {border-bottom:3px solid blue}
-.title2 {font-weight:bold}
-.title3 {background:lightblue;}
-
-.intertext   {border-bottom:2px solid gray;}
-.intertext2   {border-bottom:2px dotted gray;}
-
-.parallel   {border-bottom:1px solid gray;}
-.parallel2   {border-bottom:1px dotted gray;}
-
-
-.quote   {font-family:標楷體,DFKai-SB;}
-.transclusion {color:brown;cursor:pointer;font-family:標楷體,DFKai-SB}
-
-.causeeffect {border-bottom:2px solid orange;}
-.causeeffect2 {border-bottom:2px dotted orange;}
-
-.signifier {border-bottom:2px solid purple;}
-.signifier2 {border-bottom:2px dotted purple;}
-
-.extsignifier {border-bottom:2px solid purple;}
-.extsignifier2 {border-bottom:2px dotted purple;}
-
-.ritual {border-bottom:1px solid purple;}
-.ritual2 {border-bottom:1px dotted purple;}
-
-.extritual {border-bottom:1px solid purple;}
-.extritual2 {border-bottom:1px dotted purple;}
-
-.authorbg {border-bottom:1px solid blue;}
-.authorbg2 {border-bottom:1px dotted blue;}
-
-.extauthorbg {border-bottom:1px solid blue;}
-.extauthorbg2 {border-bottom:1px dotted blue;}
-
-.part {border-bottom:2px solid yellow;}
-.part2 {border-bottom:2px dotted yellow;}
-
-
-.synonym {border-bottom:2px solid blue;}
-.synonym2 {border-bottom:2px dotted blue;}
-
-
-
- 
-.insight {border-bottom:1px solid lightgreen;}
-
-.explaination {border-bottom:2px solid lightgreen;}
-.explaination2 {border-bottom:2px dotted lightgreen;}
-
-.individual {border-bottom:2px solid brown;}
-.individual2 {border-bottom:2px dotted brown;}
-
-.historyculture {border-bottom:2px solid DeepSkyBlue ;}
-.historyculture2 {border-bottom:2px dotted DeepSkyBlue ;}
-
-.exthistoryculture {border-bottom:2px solid DeepSkyBlue ;}
-.exthistoryculture2 {border-bottom:2px dotted DeepSkyBlue ;}
-
+.def {font-size:0.7em;cursor:pointer;
+	top:-1.4em;color:lightgreen;position:absolute;}
