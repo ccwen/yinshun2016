@@ -1,6 +1,6 @@
 /* application css */
-body {margin:0px}
-#main {font-size:125%}
+body {margin:0px;background:#333333;}
+#root {font-size:125%;}
 .hl0 {color:red;}
 
 .link{border-bottom-style:solid;border-width:2px;border-color:blue;}
@@ -13,3 +13,18 @@ body {margin:0px}
 
 .def {font-size:0.7em;cursor:pointer;
 	top:-1.4em;color:lightgreen;position:absolute;}
+
+.mui-tabs__bar>li>a{
+	line-height: 1.4em;  /*pass as topMargin down to muitab, see index.js*/
+	height:1.4em;
+	color:silver; /*look nicer on ambiance mode*/
+}
+.mui-dropdown__menu>li>a{
+	line-height: 1.4em;  /*pass as topMargin down to muitab, see index.js*/
+	height:1.4em;
+	font-weight: 700;
+	color:black; /*look nicer on ambiance mode*/
+}
+.mui-dropdown__menu>li>a:hover{
+	color:blue; /*look nicer on ambiance mode*/
+}
