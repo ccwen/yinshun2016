@@ -1,1 +1,0 @@
-browserify -r react -r react-dom> ..\static\react-bundle.js
