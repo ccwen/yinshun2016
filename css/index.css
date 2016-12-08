@@ -1,7 +1,23 @@
 /* application css */
 body {margin:0px;background:#333333;}
-#root {font-size:125%;}
-.hl0 {color:red;}
+#root {font-family: "Microsoft JhengHei", Arial;}
+.hl {color:#ff7f7f;}
+.hl0 {color:#ff7f7f;}
+.hl1 {color:lightgreen;}
+.hl2 {color:yellow;}
+
+.filterhit {color:#ff7f7f;font-size:75%;font-weight:700;cursor:pointer}
+.filterhit:hover {text-decoration:underline;color:red;}
+.disablefilterhit {color:#ff7f7f;font-size:75%}
+.filterlabel {color:lightblue;cursor:pointer}
+.filterlabel:hover {text-decoration:underline;}
+
+.cm-s-ambiance.CodeMirror {
+  line-height: 1.50em;
+  font-size:120%;
+  font-weight:100;
+  font-family: "Microsoft JhengHei", Arial;
+}
 
 .cm-s-ambiance .CodeMirror-activeline-background {
   background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.131);
@@ -51,6 +67,7 @@ body {margin:0px;background:#333333;}
 .clonebutton:hover {
 	background:#4fff4f;color:green;
 }
+
 
 
 

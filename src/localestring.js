@@ -5,7 +5,9 @@ const stringtable={
 	["toc","目錄"],
 	["dictionary","詞典"],
 	["config","設定"],
-	["source","出處"]
+	["source","出處"],
+	["Select All","全選"],
+	["Deselect All","全不選"]
 	]
 }
 for (var locale in stringtable) {
@@ -15,3 +17,4 @@ for (var locale in stringtable) {
 		localization.setString(id,str);
 	}
 }
+localization.setLocale("zh.tw");
