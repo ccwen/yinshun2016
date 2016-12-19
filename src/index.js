@@ -13,7 +13,7 @@ const Main = Accelon(
     decorators:{ptr,def,note,link},
     stockcorpora,
     topMargin:"1.6em",
-    leftFlex:3,rightFlex:2
+    leftFlex:3,rightFlex:1
   }
 );
 

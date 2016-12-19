@@ -1,1 +1,1 @@
-browserify -r react -r react-dom  | uglifyjs --screw-ie8 -c=dead_code,evaluate,loops,unused -m > ../static/react-bundle.min.js
+browserify -g [envify --NODE_ENV 'production'] -r react -r react-dom  | uglifyjs --screw-ie8 -c=dead_code,evaluate,loops,unused -m > ../static/react-bundle.min.js
